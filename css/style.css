@@ -26,8 +26,14 @@ body {
 }
 
 footer {
-    background-color: purple;
     height: 50px;
+    text-align: center;
+    color: black;
+}
+
+/* cuoricino rosso nel footer */
+#special {
+    color: red;
 }
 
 h1,
