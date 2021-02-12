@@ -72,6 +72,8 @@ header nav .main-menu li a:hover {
     background-position: center;
     height: 500px;
     margin-bottom: 45px;
+    border-radius: 10px;
+    overflow: auto;
 }
 
 .overlay {
@@ -115,18 +117,20 @@ header nav .main-menu li a:hover {
 
 .left-fl,
 .right-fl {
-    width: 23%;
+    width: 21%;
     /* height: 500px; */
 }
 
 .center-fl {
-    width: 50%;
+    width: 54%;
     /* height: 500px; */
     margin: 0 2%;
 }
 
 .image {
     height: 210px;
+    border-radius: 10px;
+    overflow: auto;
 }
 
 .image.uno {
