@@ -99,17 +99,12 @@ header nav .main-menu li a:hover {
     color: white;
 }
 
-/* .content-bottom {
-    background-color: dodgerblue;
-} */
-
 .content-bottom h2 {
     font-size: 40px;
 }
 
 .sec-float > * {
     float: left;
-    /* background-color: rgb(155, 203, 252); */
     margin-bottom: 20px;
 }
 
@@ -124,12 +119,10 @@ header nav .main-menu li a:hover {
 .left-fl,
 .right-fl {
     width: 21%;
-    /* height: 500px; */
 }
 
 .center-fl {
     width: 54%;
-    /* height: 500px; */
     margin: 0 2%;
 }
 
