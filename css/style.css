@@ -7,7 +7,7 @@
 /* UTILITIES */
 
 .container {
-    width: 80%;
+    width: 1170px;
     margin: 20px auto;
 }
 
@@ -20,8 +20,12 @@
 /* STILI */
 
 header {
-    background-color: pink;
-    height: 100px;
+    /* background-color: pink; */
+    /* height: 100px; */
+}
+
+body {
+    color: #858585;
 }
 
 footer {
@@ -30,6 +34,30 @@ footer {
 }
 
 /* CLASSI */
+
+header .logo img{
+    height: 70px;
+}
+
+header nav{
+    margin-top: 45px;
+}
+
+header nav .main-menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+header nav .main-menu li a {
+    text-decoration: none;
+    color: #858585;
+}
+
+header nav .main-menu li a:hover {
+    color: black;
+}
 
 .content-top {
     background-color: rgb(255, 255, 126);
