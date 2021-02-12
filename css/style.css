@@ -21,11 +21,6 @@
 
 /* STILI */
 
-/* header { 
-    background-color: pink;
-    height: 100px;
-}  */
-
 body {
     color: #858585;
 }
@@ -71,7 +66,6 @@ header nav .main-menu li a:hover {
 }
 
 .content-top {
-    /* background-color: rgb(255, 255, 126); */
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
