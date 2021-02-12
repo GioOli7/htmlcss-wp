@@ -19,6 +19,12 @@
     clear: both;
 }
 
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    padding: 50px;
+}
+
 /* STILI */
 
 body {
@@ -46,7 +52,7 @@ h6 {
     color: black;
 }
 
-/* CLASSI */
+/* ======HEADER====== */
 
 header .logo img{
     height: 70px;
@@ -72,6 +78,8 @@ header nav .main-menu li a:hover {
     color: black;
 }
 
+/* ======CONTENT TOP====== */
+
 .content-top {
     background-image: url(../img/banner.jpg);
     background-size: cover;
@@ -80,12 +88,6 @@ header nav .main-menu li a:hover {
     margin-bottom: 45px;
     border-radius: 10px;
     overflow: auto;
-}
-
-.overlay {
-    background-color: rgba(0, 0, 0, 0.2);
-    height: 100%;
-    padding: 50px;
 }
 
 .text-content {
@@ -99,6 +101,8 @@ header nav .main-menu li a:hover {
     color: white;
 }
 
+/* ======COMTENT BOTTOM====== */
+
 .content-bottom h2 {
     font-size: 40px;
 }
@@ -107,7 +111,6 @@ header nav .main-menu li a:hover {
     float: left;
     margin-bottom: 20px;
 }
-
 
 .heading {
     float: none;
