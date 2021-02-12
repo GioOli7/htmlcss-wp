@@ -21,10 +21,10 @@
 
 /* STILI */
 
-header {
-    /* background-color: pink; */
-    /* height: 100px; */
-}
+/* header { 
+    background-color: pink;
+    height: 100px;
+}  */
 
 body {
     color: #858585;
@@ -71,9 +71,28 @@ header nav .main-menu li a:hover {
 }
 
 .content-top {
-    background-color: rgb(255, 255, 126);
-    height: 400px;
+    /* background-color: rgb(255, 255, 126); */
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     margin-bottom: 20px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    padding: 50px;
+}
+
+.text-content {
+    color: white;
+    width: 50%;
+    margin-top: 250px;
+}
+
+.text-content h1 {
+    font-size: 30px;
 }
 
 .content-bottom {
